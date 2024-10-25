@@ -7,17 +7,24 @@ androidxComposeCompiler = "1.5.12"  # Compose VC
 androidxLifecycle = "2.8.0"
 androidxNavigation = "2.8.0-beta01"
 baseJunit = "4.13.2"
+coil = "2.2.2"
+coilComposeVersion = "2.2.2"
 coreKtxVersion = "1.13.1"
 espressoCore = "3.5.1"
 hilt = "2.51.1"
+hiltNavigationCompose = "1.0.0"
 junit = "1.1.5"
 kotlin = "1.9.23"
 kotlinxSerializationJson = "1.6.3"
 ksp = "1.9.23-1.0.20"
 appcompat = "1.7.0"
 material = "1.12.0"
+material3 = "1.3.0"
 pagingCompose = "3.2.0"
+pagingComposeVersion = "1.0.0-alpha18"
 pagingRuntime = "3.2.0"
+pagingRuntimeKtx = "3.1.1"
+palette = "1.0.0"
 secrets = "2.0.1"
 room = "2.6.1"
 coilCompose = "2.4.0"
@@ -31,6 +38,12 @@ materialIconsExtended = "1.7.4"
 
 [libraries]
 # Compose
+androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+androidx-material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
+androidx-paging-compose-v100alpha18 = { module = "androidx.paging:paging-compose", version.ref = "pagingComposeVersion" }
+androidx-paging-runtime-ktx = { module = "androidx.paging:paging-runtime-ktx", version.ref = "pagingRuntimeKtx" }
+androidx-palette = { module = "androidx.palette:palette", version.ref = "palette" }
+coil = { module = "io.coil-kt:coil", version.ref = "coil" }
 coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidxActivity" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidxComposeBom" }
@@ -44,6 +57,7 @@ androidx-navigation-compose = { group = "androidx.navigation", name = "navigatio
 androidx-compose-ui-util = { group = "androidx.compose.ui", name = "ui-util" }
 androidx-lifecycle-runtimeCompose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidxLifecycle" }
 androidx-lifecycle-viewModelCompose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "androidxLifecycle" }
+coil-compose-v222 = { module = "io.coil-kt:coil-compose", version.ref = "coilComposeVersion" }
 material-icons = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsExtended" }
 
 # End

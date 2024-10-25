@@ -12,6 +12,6 @@ android {
 
 dependencies {
     implementation(libs.coil.compose)
-    implementation ("androidx.palette:palette:1.0.0")
+    implementation (libs.androidx.palette)
     implementation(libs.material.icons)
 }
